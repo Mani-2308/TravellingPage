@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.travel-page-bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel-page-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 46px;
+    text-align: center;
+}
+
+.travel-page-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 32px;
+}
+
+.get-started-button {
+    color: #183b56;
+    background-color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto";
+    height: 70px;
+    width: 90%;
+    border-radius: 30px;
+    margin: 20px;
+    border-width: 0px;
+}
+
+.know-more-button {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+    background-color: transparent;
+    height: 70px;
+    width: 90%;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+    margin: 20px;
+}
+
+@media (min-width: 768px) {
+    .travel-page-bg-container {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+        padding: 90px;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .travel-page-heading {
+        font-size: 40px;
+    }
+
+    .travel-page-description {
+        font-size: 20px;
+    }
+
+    .get-started-button {
+        width: 250px;
+    }
+
+    .know-more-button {
+        width: 250px;
+    }
+}
